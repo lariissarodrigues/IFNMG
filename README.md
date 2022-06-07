@@ -1,2 +1,2 @@
 # IFNMG - Campus Almenara 
-Atividades das matérias do curso  
+-- Atividades das matérias do curso --   
