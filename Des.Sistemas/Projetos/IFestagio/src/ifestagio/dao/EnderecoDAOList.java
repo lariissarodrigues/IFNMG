@@ -12,34 +12,50 @@ import java.util.ArrayList;
  * @author ifnmg
  */
 public class EnderecoDAOList implements EnderecoDAO {
-    
-    private static ArrayList <Endereco> enderecos = new ArrayList(); 
-    private long id = 0; 
+
+    private static ArrayList<Endereco> enderecos = new ArrayList(); //Criando uma lista para armazenar o endereço. 
+    private long id = 0;
 
     @Override
     public void salvar(Endereco endereco) {
-        if(endereco.getId() == 0){
+        if (endereco.getId() == 0) {
             //olhando para ver se tem um endereço registrado
-            id++; 
-            endereco.setId(id); 
-            enderecos.add(endereco); 
+            id++;
+            endereco.setId(id);
+            enderecos.add(endereco);
+        } else {
         }
-        else{ }
-        
+
     }
 
     @Override
     public Endereco get(long idEndereco) {
-        
-        return null;  
+
+        for (Endereco enderecoTemporario : enderecos) {
+            if (enderecoTemporario.getId() == idEndereco) {
+                return enderecoTemporario;
+            }
+
+        }
+
+        return null;
 
     }
 
     @Override
     public void remover(long idEndereco) {
-     
+
+        //Percorrendo a lista e olhando se o parametro passado pertence a algum endereço
+        for (Endereco enderecoTemporario : enderecos) {
+            if (enderecoTemporario.getId() == idEndereco) {
+                enderecos.remove(enderecoTemporario); //removendo o endereço da lista
+                return;
+
+            } else {
+                System.out.println("endereço não encontrado");
+            }
+        }
+
     }
-    
-    
-    
+
 }
