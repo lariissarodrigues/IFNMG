@@ -6,6 +6,7 @@ package ifestagio.dao;
 
 import ifestagio.model.Endereco;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -56,6 +57,11 @@ public class EnderecoDAOList implements EnderecoDAO {
             }
         }
 
+    }
+    
+    @Override
+    public List<Endereco> getTodos(){
+       return enderecos; 
     }
 
 }

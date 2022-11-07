@@ -32,6 +32,10 @@ public class Endereco {
         this.id = id;
     }
     
+     public Endereco(){
+         
+     }
+    
     
     
     
