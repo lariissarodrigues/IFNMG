@@ -3,13 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/ifnmg/Área%20de%20Trabalho/IFestagio/src/ifestagio/IFestagio.java</file>
-            <file>file:/home/ifnmg/Área%20de%20Trabalho/IFestagio/src/ifestagio/model/Aluno.java</file>
-            <file>file:/home/ifnmg/Área%20de%20Trabalho/IFestagio/src/ifestagio/model/Curso.java</file>
-            <file>file:/home/ifnmg/Área%20de%20Trabalho/IFestagio/src/ifestagio/dao/EnderecoDAO.java</file>
-            <file>file:/home/ifnmg/Área%20de%20Trabalho/IFestagio/src/ifestagio/model/Pessoa.java</file>
-            <file>file:/home/ifnmg/Área%20de%20Trabalho/IFestagio/src/ifestagio/dao/EnderecoDAOList.java</file>
-            <file>file:/home/ifnmg/Área%20de%20Trabalho/IFestagio/src/ifestagio/model/Endereco.java</file>
+            <file>file:/home/ifnmg/Documentos/IFNMG-main/Des.Sistemas/Projetos/IFestagio/src/ifestagio/view/FormListEndereco.java</file>
+            <file>file:/home/ifnmg/Documentos/IFNMG-main/Des.Sistemas/Projetos/IFestagio/src/ifestagio/dao/EnderecoDAO.java</file>
+            <file>file:/home/ifnmg/Documentos/IFNMG-main/Des.Sistemas/Projetos/IFestagio/src/ifestagio/dao/EnderecoDAOList.java</file>
+            <file>file:/home/ifnmg/Documentos/IFNMG-main/Des.Sistemas/Projetos/IFestagio/src/ifestagio/view/FormEndereco.java</file>
         </group>
     </open-files>
 </project-private>
